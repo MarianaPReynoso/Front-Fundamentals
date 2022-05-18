@@ -1,0 +1,88 @@
+.index-box h1{
+    margin: 0;
+    text-align: center;
+    height: 40px;
+    border-bottom: 4px solid;
+    padding-bottom: 10px;
+    font-family: 'Koulen', cursive;
+    letter-spacing: 1px;
+    text-shadow: 1px 1px 1px whitesmoke;    
+}
+
+body{
+    margin:0;
+    padding: 0;
+    background: url(../Multimedia/WhatsApp\ Image\ 2022-05-15\ at\ 16.38.08.jpeg); 
+    background-repeat: no-repeat; 
+    background-size: cover; /* se adapte al tamaño*/
+    background-position: center; 
+    background-attachment: fixed; /* que se adapte al alto y ancho*/ 
+    font-family: 'Oswald', sans-serif;    
+}
+
+.index-box{
+    width: 100%;
+    max-width: 350px;
+    height: 100%;
+    max-height: auto;
+    margin: auto; 
+    margin-top: 200px;
+    /*position: absolute; */ 
+    position: relative;
+    background: rgb(240, 211, 174);
+    opacity: 0.8;
+    color: rgb(173, 173, 173);
+    padding: 20px 30px;
+    border-radius: 20px;     
+}
+
+.formulario{
+    text-shadow: 1px 1px 1px whitesmoke; 
+}
+
+.campos{
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.redondeado{
+    border-radius: 7px; 
+    width: 60%;
+    height: 30px;
+    border-color: gray;
+}
+
+.check{
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+i {
+    font-size: 30px;
+}
+
+.boton{
+    width: 100%;
+    height: 35px;
+    background: gray;
+    color: white;
+    border: none;
+    border-radius: 7px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-family: 'Oswald', sans-serif;
+}
+
+.links{
+    height: 30px;
+    text-align: center;     
+}
+
+.links a{
+    color: gray;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px whitesmoke; 
+    text-transform: uppercase;    
+}
